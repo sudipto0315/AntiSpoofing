@@ -6,6 +6,7 @@ import cv2
 # '2' means the third camera connected to the computer, usually 0 refers to the built-in webcam
 cap = cv2.VideoCapture(0)
 
+
 # Initialize the FaceDetector object
 # minDetectionCon: Minimum detection confidence threshold
 # modelSelection: 0 for short-range detection (2 meters), 1 for long-range detection (5 meters)
